@@ -191,12 +191,36 @@ class Data {
           name: 'Quiz Set 2',
           questions: [
             // Add questions for Quiz Set 2 of React Native
+            Question(
+              'Add aquisuas Queestões.',
+              [
+                'None of the above',
+                'None of the above2',
+                'None of the above8',
+                'None of the above88',
+                'None of the above889',
+                'None of the above8899',
+              ],
+              0,
+            ),
           ],
         ),
         QuizSet(
           name: 'Quiz Set 3',
           questions: [
             // Add questions for Quiz Set 3 of React Native
+            Question(
+              'Add aquisuas Queestões.',
+              [
+                'None of the above',
+                'None of the above2',
+                'None of the above8',
+                'None of the above88',
+                'None of the above889',
+                'None of the above8899',
+              ],
+              0,
+            ),
           ],
         ),
       ],
@@ -210,12 +234,14 @@ class Data {
           questions: [
             // Add questions for Quiz Set 1 of Python
             Question(
-              'What is a widget in Flutter?',
+              'Add aquisuas Queestões.',
               [
-                'A building block of the user interface',
-                'A programming language',
-                'A UI framework',
-                'None of the above'
+                'None of the above',
+                'None of the above2',
+                'None of the above8',
+                'None of the above88',
+                'None of the above889',
+                'None of the above8899',
               ],
               0,
             ),
@@ -226,12 +252,14 @@ class Data {
           questions: [
             // Add questions for Quiz Set 2 of Python
             Question(
-              'What is a widget in Flutter?',
+              'Add aquisuas Queestões.',
               [
-                'A building block of the user interface',
-                'A programming language',
-                'A UI framework',
-                'None of the above'
+                'None of the above',
+                'None of the above2',
+                'None of the above8',
+                'None of the above88',
+                'None of the above889',
+                'None of the above8899',
               ],
               0,
             ),
@@ -241,6 +269,18 @@ class Data {
           name: 'Quiz Set 3',
           questions: [
             // Add questions for Quiz Set 3 of Python
+            Question(
+              'Add aquisuas Queestões.',
+              [
+                'None of the above',
+                'None of the above2',
+                'None of the above8',
+                'None of the above88',
+                'None of the above889',
+                'None of the above8899',
+              ],
+              0,
+            ),
           ],
         ),
       ],
@@ -270,6 +310,18 @@ class Data {
           name: 'Quiz Set 2',
           questions: [
             // Add questions for Quiz Set 2 of Python
+            Question(
+              'Add aquisuas Queestões.',
+              [
+                'None of the above',
+                'None of the above2',
+                'None of the above8',
+                'None of the above88',
+                'None of the above889',
+                'None of the above8899',
+              ],
+              0,
+            ),
           ],
         ),
         QuizSet(
