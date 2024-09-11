@@ -1,7 +1,7 @@
 # quizapp
 
 A new Flutter project. Quiz de perguntas
-
+Antonio joaquim flutter dev Jr.
 ## Getting Started
 
 This project is a starting point for a Flutter application.

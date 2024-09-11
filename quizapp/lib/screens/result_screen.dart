@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quizapp/data/data.dart';
 import 'package:quizapp/model/model.dart';
 import 'package:quizapp/screens/home_screen.dart';
 import 'package:quizapp/screens/quiz_screen.dart';
@@ -10,13 +11,14 @@ class ResultScreen extends StatelessWidget {
   final int totalScore;
   final QuizSet quizSet;
 
-  const ResultScreen(
-      {super.key,
-      required this.totalQuestions,
-      required this.totalAttempts,
-      required this.totalCorrect,
-      required this.totalScore,
-      required this.quizSet});
+  const ResultScreen({
+    super.key,
+    required this.totalQuestions,
+    required this.totalAttempts,
+    required this.totalCorrect,
+    required this.totalScore,
+    required this.quizSet,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +29,7 @@ class ResultScreen extends StatelessWidget {
             : totalScore < 80
                 ? "Ótimo"
                 : totalScore > 90
-                    ? "Você é Expert"
+                    ? "Você é Expert "
                     : "Você é Fenomenal";
     return Scaffold(
       body: Container(
@@ -181,6 +183,19 @@ class ResultScreen extends StatelessWidget {
                 ),
               ),
             ),
+            const SizedBox(
+              height: 320,
+            ),
+            SizedBox(
+              child: Align(
+                alignment: Alignment.bottomRight,
+                child: Padding(
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 15, vertical: 3),
+                  child: Text('by Antonio Joaquim'),
+                ),
+              ),
+            )
           ],
         ),
       ),
